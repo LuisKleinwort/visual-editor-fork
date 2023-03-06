@@ -167,6 +167,8 @@ class _TextLineState extends State<TextLine> {
         // Build the embed as a widget span
         // TextSpan allow custom embeds inside the text.
         final embed = WidgetSpan(
+          baseline: TextBaseline.alphabetic,
+          alignment: PlaceholderAlignment.baseline,
           child: EmbedProxy(
             embedBuilder(
               context,
