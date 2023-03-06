@@ -42,7 +42,7 @@ class RulesController {
 
     // Insert
     InsertEmbedsRule(),
-    AutoExitBlockRule(),
+    // AutoExitBlockRule(), // currently this rule makes it so the editor loses focus after a double new line
     PreserveBlockStyleOnInsertRule(),
     PreserveLineStyleOnSplitRule(),
     ResetLineFormatOnNewLineRule(),
